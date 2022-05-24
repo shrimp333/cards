@@ -28,7 +28,7 @@ namespace cards
                         {
 
                             inputNum = (int)char.GetNumericValue(input[0]);
-                            if (1 <= inputNum && inputNum <= 7)
+                            if (1 <= inputNum && inputNum <= 5)
                                 break;
                         }
                         Console.Clear();
